@@ -15,18 +15,22 @@ html{
 .banner-site{
     width: 100%;
     height: 90vh;
-    background-image: url('img/logo.png');
-    background-position: center;
+    background-image: url('img/logo.gif');
+    background-position-x: -300px;
+    background-position-y: -300px;
     background-repeat: no-repeat;
-    background-size: 700px;
-    background-color: #000;
+    background-size: 1400px;
     background-color: rgba(19, 19, 19);
-
+}
+.banner-site-opacity{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(19, 19, 19,0.9);
 }
 .banner-site nav{
     width: 100%;
-    height: 13vh;
-    padding: 0 30px;
+    padding: 0px 100px;
+    padding-top: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,7 +39,23 @@ html{
 nav img{
     width: 70px;
 }
+.menu-desktop{
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+.menu-desktop a{
+    color: var(--dourado);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+.menu-desktop a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
 .text-banner-site{
     width: 100%;
-    height: ;
 }
